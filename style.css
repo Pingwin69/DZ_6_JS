@@ -1,0 +1,70 @@
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    text-align: end;
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 2px 2px;
+}
+button:hover{
+    background-color: #c6ffc7;
+}
+.display{
+    width: 20%;
+    height: 15%;
+    margin-bottom: 25px;
+}
+.ravno{
+    background-color: #b5b5ea;
+}
+.pr1 button, .pr2 button, .pr3 button{
+    background-color: #e5dfe6;
+} 
+.pr1 button:hover, .pr2 button:hover, .pr3 button:hover{
+    background-color: #c6ffc7;
+}
+.zap, .minusPlus, .zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+    background-color: white;
+}
+
+.plus, .minus, .x{
+    background-color:#e5dfe6;
+}
+.tabl{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+ul{
+    width: 25%;
+    margin: 0 auto;
+    list-style: decimal;
+}
+ul.table{
+    padding: 25px;
+    border: 2px solid #666; 
+}
+
+.table li{
+    font-size: 18px;
+    color: #666;
+    color: #666;
+    width: 50%;
+    padding: 0 0 0 15px;
+
+}
